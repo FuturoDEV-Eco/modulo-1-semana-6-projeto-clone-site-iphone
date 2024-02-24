@@ -1,0 +1,2 @@
+- Código de projeto de clone do site da Apple;
+- Revisão de CSS(Flexbox e Box Model);
