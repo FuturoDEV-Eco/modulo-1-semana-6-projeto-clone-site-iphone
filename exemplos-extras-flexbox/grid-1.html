@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>CSS Grid - Revisão</title>
+    <style>
+        html {
+            font-family: sans-serif;
+        }
+
+        body {
+            width: 70%;
+            max-width: 960px;
+            margin: 20px auto;
+            display: grid;
+            justify-content: center;
+        }
+
+        button {
+            background-color: aqua;
+        }
+
+        .wrapper {
+            display: grid;
+            grid-template-rows: 100px 100px;/* Duas linhas de altura 100px e 200px */
+            grid-template-columns: 100px 100px;/* Duas colunas com larguras flexíveis */
+            grid-gap: 40px; /* Espaçamento entre linhas e colunas */
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Revisão - GRID</h2>
+    <div class="wrapper" >
+        <button>um</button>
+        <button>dois</button>
+        <button>tres</button>
+        <button>quatro</button>
+    </div>
+</body>
+
+</html>

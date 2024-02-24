@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Flexbox align 0 — starting code</title>
+    <style>
+      html {
+        font-family: sans-serif;
+      }
+
+      body {
+        width: 70%;
+        max-width: 960px;
+        margin: 20px auto;
+      }
+
+      button {
+        font-size: 18px;
+        line-height: 1.5;
+        width: 15%;
+        background-color: rgb(42, 165, 114);
+        color: aliceblue;
+      }
+
+      div {
+        height: 100px;
+        border: 1px solid rgb(174, 46, 191);
+        background-color: blueviolet;
+
+        /* add esses 3 linhas */
+        display: flex;  /* Add display flexivel*/
+        align-items: center;  /* Alinha os itens verticalmente no centro */
+        justify-content: space-around;  /* Alinha os itens horizontalmente no centro */
+        gap: 20px; /* Espaçamento entre os itens */
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Revisão - Alinhamentos</h2>
+    <div>
+      <button>um</button>
+      <button>dois</button>
+      <button>tres</button>
+      <button>quatro</button>
+      <button>cinco</button>
+    </div>
+  </body>
+</html>
